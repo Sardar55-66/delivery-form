@@ -315,7 +315,8 @@ export const DeliveryForm = () => {
               </label>
               <input
                 id="weight"
-                type="number"
+                type="text"
+                inputMode="decimal"
                 step={0.1}
                 min={0.1}
                 max={30}
